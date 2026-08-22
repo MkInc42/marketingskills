@@ -23,6 +23,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | customer-research | 2.0.1 | 2026-07-10 |
 | directory-submissions | 2.0.0 | 2026-05-05 |
 | emails | 2.0.0 | 2026-05-05 |
+| events | 1.0.0 | 2026-08-22 |
 | free-tools | 2.0.0 | 2026-05-05 |
 | image | 2.0.1 | 2026-05-18 |
 | influencer-marketing | 1.1.0 | 2026-08-19 |
@@ -55,6 +56,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.11.0 (2026-08-22)
+
+- Added **`events`** skill (1.0.0) — event marketing across all four roles: **hosting** (format ladder from webinar → workshop → dinner → meetup → virtual summit → user conference, with "the topic is the targeting" and recurring-beats-one-off as the governing rules), **sponsoring/exhibiting**, **speaking**, and **attending** (target list, pre-booked meetings, the side-event play). Built on the universal arc — **20% event, 80% before-and-after** — with the 24–48h tiered follow-up window, capture-context-not-just-contact discipline, a content arc treating every event as a recording studio (transcripts compound in AI answers → ai-seo, public-relations podcast prep), and a three-tier measurement model (vanity: badge scans / real: qualified conversations / decisive: cost per qualified meeting) with multi-touch honesty via attribution. Three references: **webinar-funnel.md** — the flagship funnel closing #485 (topic & offer before anything, registration page + 2-week promo plan, the show-up system incl. calendar-add and the T-5-minute join link, the live-to-close arc with the upfront-named pitch and scripted one-minute transition, behavior-segmented post-webinar incl. no-show replay recovery, and stage-by-stage diagnostic metrics with benchmarks labeled directional; category gap identified via 2026-07 competitive research, alirezarezvani/claude-skills MIT, idea credited, authored from scratch); **sponsorship-roi.md** (audience-ICP overlap in absolute numbers, backwards meetings math to cost per qualified meeting vs the counterfactual channel, prospectus negotiation ladder with speaking slots and side-event rights above booth size, the curated-dinner side-event play, booth qualifying + context capture, tiered follow-up SLA, influence-window measurement); **speaking.md** (CFP craft — audience takeaway over company story; talk design as outline-then-emotional-storyboard with beats carrying energy/feel/hit, distilled from Knowatoa's talk-storyboard/presentation-outline, MIT, credited; the recording as the real audience — speak the numbers, quotable line on a peak beat, transcript → AI citations). Six evals covering sponsorship ROI pushback, the full webinar funnel, speaking prep, the co-marketing boundary on joint webinars, the badge-scan follow-up trap, and the launch boundary. New skill = repo y release. Total skills: 50. Closes #485.
 
 ### 2.10.2 (2026-08-21)
 
