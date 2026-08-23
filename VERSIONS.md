@@ -35,7 +35,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | marketing-psychology | 2.0.0 | 2026-05-05 |
 | offers | 1.0.0 | 2026-06-16 |
 | onboarding | 2.0.0 | 2026-05-05 |
-| ads | 2.3.1 | 2026-08-23 |
+| ads | 2.3.2 | 2026-08-23 |
 | paywalls | 2.0.0 | 2026-05-05 |
 | popups | 2.0.0 | 2026-05-05 |
 | pricing | 2.1.0 | 2026-07-27 |
