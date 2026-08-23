@@ -16,7 +16,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | community-marketing | 2.0.0 | 2026-05-05 |
 | competitor-profiling | 2.0.1 | 2026-08-19 |
 | competitors | 2.0.1 | 2026-07-09 |
-| content-strategy | 2.1.0 | 2026-08-19 |
+| content-strategy | 2.2.0 | 2026-08-23 |
 | copy-editing | 2.0.0 | 2026-05-05 |
 | copywriting | 2.0.1 | 2026-06-16 |
 | cro | 2.0.0 | 2026-05-05 |
