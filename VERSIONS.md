@@ -5,7 +5,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
 | ab-testing | 2.0.0 | 2026-05-05 |
-| ad-creative | 2.9.0 | 2026-08-23 |
+| ad-creative | 2.8.2 | 2026-08-23 |
 | ai-seo | 2.4.0 | 2026-08-21 |
 | analytics | 2.0.1 | 2026-07-22 |
 | aso | 2.0.1 | 2026-08-19 |
@@ -35,7 +35,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | marketing-psychology | 2.0.0 | 2026-05-05 |
 | offers | 1.0.0 | 2026-06-16 |
 | onboarding | 2.0.0 | 2026-05-05 |
-| ads | 2.4.0 | 2026-08-23 |
+| ads | 2.3.1 | 2026-08-23 |
 | paywalls | 2.0.0 | 2026-05-05 |
 | popups | 2.0.0 | 2026-05-05 |
 | pricing | 2.1.0 | 2026-07-27 |
@@ -55,6 +55,11 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.10.4 (2026-08-23)
+
+- **ad-creative** (2.8.1 → 2.8.2): three creative-format references distilled from Dara Denney's practitioner content. New `references/meta-creative-formats.md` — a prioritized S→F taxonomy of ~51 Meta ad formats as a "which format to make next" decision aid, framed by the unicorn-scaler-vs-supporting-cast lens and the persona-based Andromeda algorithm (S-tier: founder content, partnership ads, VSL; explicit F-tier de-prioritization of press / podcast / notes-app fake-native). `references/static-ad-templates.md` gains a **tier (S–F) + funnel role** on all 15 templates plus 7 new statics (grid multi-SKU, callout, mood board, educational infographic, challenging-beliefs, tweet/reddit, ugly/post-it). `references/short-form-video-specs.md`'s Creator Format Library expands from 3 to 13 formats (yapper, amateur investigation, David & Goliath, authority, VSL, green-screen commentary, conversation, duet/reaction, ASMR, street interview) plus a founder/organic vlog-structures subsection (hero's journey, math, shiny-object, three-capture shooting, 0.5–1s cut) from Oren John. New evals (ids 13–15); description gains taxonomy triggers.
+- **ads** (2.3.0 → 2.3.1): two new references plus a partnership-ads layer. New `references/google-ads-audit-checklist.md` — a 32-item ecommerce Google Ads audit (Search + Shopping + PMax + GMC + Demand Gen) scored pass/fail/unknown/NA under the audit guardrails (adapted from ECHELONN's public checklist). New `references/creative-research-automation.md` — an agentic creative/competitive research workflow (ad-library teardown with output schema, review→persona mapping, competitor teardown; connectors + scheduled-to-Slack). `references/meta-decision-system.md` gains the **partnership-ads playbook** — the net-new-reach lever under Andromeda's persona targeting, rolling month-over-month reach as a scale/health signal, and the per-creator low-fi-statics companion tactic — closing the skill's prior zero coverage of partnership ads. New evals (ids 8–10).
 
 ### 2.10.3 (2026-08-22)
 
