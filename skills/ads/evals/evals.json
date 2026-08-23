@@ -97,6 +97,21 @@
         "Declines to give a single health score at ~50 percent coverage; separates unverified (unknown) from failing",
         "Frames any account change as a draft with a rollback step rather than an immediate action"
       ]
+    },
+    {
+      "id": 8,
+      "prompt": "Our Meta account is at a 40 ROAS but the numbers have felt stale — CPA and ROAS are steady but I feel like we're hitting a wall. Frequency is creeping up and I can't seem to grow past our current spend. What should we do to reach new audiences?",
+      "expected_output": "Should load references/meta-decision-system.md and diagnose this as a net-new-reach problem, not a conversion problem. Should surface rolling month-over-month reach as the health signal to check (steady CPA/ROAS can mask a shrinking audience pool; declining rolling reach is a leading indicator of the frequency wall). Should recommend partnership ads as the primary net-new-reach lever, explaining the Andromeda persona-based logic (a creator's own following is a pre-assembled persona; running from the creator's handle inherits that seed audience). Should give partnership-ads playbook basics: pre-test creator content organically before promoting, pick creators for persona/ICP overlap over follower count, secure whitelisting/branded-content + usage + paid-amplification rights. Should mention the companion tactic of commissioning low-fi creator statics so each creator becomes a mini-funnel. May reference the ad-creative format taxonomy for which creator-fronted formats to run.",
+      "assertions": [
+        "Loads references/meta-decision-system.md",
+        "Frames this as a net-new-reach problem, not a conversion problem",
+        "Surfaces rolling month-over-month reach as the health signal / leading indicator of the wall",
+        "Recommends partnership ads as the primary net-new-reach lever",
+        "Explains the Andromeda persona-based seed-audience logic",
+        "Gives partnership-ads playbook basics (pre-test, persona overlap over follower count, whitelisting/rights)",
+        "Mentions commissioning low-fi creator statics as a per-creator mini-funnel"
+      ],
+      "files": []
     }
   ]
 }
