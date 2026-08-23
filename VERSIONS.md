@@ -23,6 +23,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | customer-research | 2.0.2 | 2026-08-23 |
 | directory-submissions | 2.0.0 | 2026-05-05 |
 | emails | 2.0.0 | 2026-05-05 |
+| events | 1.0.0 | 2026-08-23 |
 | free-tools | 2.0.1 | 2026-08-23 |
 | image | 2.0.1 | 2026-05-18 |
 | influencer-marketing | 1.1.0 | 2026-08-19 |
@@ -55,6 +56,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.11.0 (2026-08-23)
+
+- Added the **`events`** skill (1.0.0) — event marketing across all four roles: **hosting** (webinar → workshop → dinner → meetup → virtual summit → user conference, governed by "the topic is the targeting" and recurring-beats-one-off), **sponsoring/exhibiting**, **speaking**, and **attending** (target list → pre-booked meetings → the side-event play). Built on the universal arc — **20% event, 80% before-and-after** — with the 24–48h tiered follow-up, capture-context-not-just-contact discipline, an event-as-recording-studio content arc (transcripts compound in AI answers → ai-seo, public-relations), and a three-tier measurement model (vanity / real / decisive) with multi-touch honesty via attribution. Four references: **webinar-funnel.md** (the flagship funnel, closes #485), **sponsorship-roi.md** (ICP-overlap + cost-per-qualified-meeting math, side-event play, tiered follow-up), **speaking.md** (CFP craft, talk storyboard, the recording as the real audience), and **event-portfolio-strategy.md** (which events to invest in: in-person-necessity by segment, the 80/20 of selection, size↔ROI inverse, the owned/trade-show/community frame + economics — distilled from Corey's *Founding Marketing* ch.9). Seven evals. New skill = repo y release; total skills: 50. Closes #485.
 
 ### 2.10.5 (2026-08-23)
 
