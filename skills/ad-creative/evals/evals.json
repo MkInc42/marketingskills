@@ -171,6 +171,20 @@
         "Gives the organic-vs-baked-music decision rather than a blanket yes/no (attach trending sound in-app for organic; bake for ads)"
       ],
       "files": []
+    },
+    {
+      "id": 13,
+      "prompt": "We're a DTC brand with a stalled Meta account and need fresh static ad concepts that can actually open cold net-new audiences — not just retarget. Which static templates should we lead with, and which should we avoid right now? Also, we have several SKUs.",
+      "expected_output": "Should load references/static-ad-templates.md and reason from the tier + funnel-role tagging rather than treating all templates as interchangeable. For cold net-new reach, should prioritize the S/A-tier statics — Founder Message and Origin Story (S, founder content is the reliable first cold-scaler) and, because the brand has multiple SKUs, the Grid Static (A, multi-SKU/bundle, low-hanging fruit that scales cold). Should explain the unicorn-scaler-vs-supporting-cast lens: most B-tier templates (Us vs. Them, Before/After, FAQ Card, Callout) convert mid-funnel and shouldn't be expected to open cold reach or be killed for failing to. Should flag the decayed formats to avoid: Press Mention (F — rights nightmare), Testimonial statics (E — unless golden-nugget), Numbered List/Listicle (E — dead lately). Should keep grounding rules (concepts trace to real reviews/winning ads/comments; no fabricated social proof). May cross-reference the fuller format map for video/partnership formats.",
+      "assertions": [
+        "Loads or applies the static-ad-templates reference and reasons from tier + funnel role",
+        "Prioritizes S/A-tier statics for cold reach (Founder Message, Origin Story, Grid Static)",
+        "Recommends the Grid Static specifically given multiple SKUs",
+        "Explains the unicorn-scaler vs. supporting-cast lens (B-tier = mid-funnel, don't kill for failing to scale cold)",
+        "Flags decayed formats to avoid (Press Mention F, Testimonial statics E, Listicle/Numbered List E)",
+        "Preserves grounding rules — no fabricated social proof"
+      ],
+      "files": []
     }
   ]
 }
