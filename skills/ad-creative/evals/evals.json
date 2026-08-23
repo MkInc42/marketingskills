@@ -174,6 +174,20 @@
     },
     {
       "id": 13,
+      "prompt": "We're a DTC brand with a stalled Meta account and need fresh static ad concepts that can actually open cold net-new audiences — not just retarget. Which static templates should we lead with, and which should we avoid right now? Also, we have several SKUs.",
+      "expected_output": "Should load references/static-ad-templates.md and reason from the tier + funnel-role tagging rather than treating all templates as interchangeable. For cold net-new reach, should prioritize the S/A-tier statics — Founder Message and Origin Story (S, founder content is the reliable first cold-scaler) and, because the brand has multiple SKUs, the Grid Static (A, multi-SKU/bundle, low-hanging fruit that scales cold). Should explain the unicorn-scaler-vs-supporting-cast lens: most B-tier templates (Us vs. Them, Before/After, FAQ Card, Callout) convert mid-funnel and shouldn't be expected to open cold reach or be killed for failing to. Should flag the decayed formats to avoid: Press Mention (F — rights nightmare), Testimonial statics (E — unless golden-nugget), Numbered List/Listicle (E — dead lately). Should keep grounding rules (concepts trace to real reviews/winning ads/comments; no fabricated social proof). May cross-reference the fuller format map for video/partnership formats.",
+      "assertions": [
+        "Loads or applies the static-ad-templates reference and reasons from tier + funnel role",
+        "Prioritizes S/A-tier statics for cold reach (Founder Message, Origin Story, Grid Static)",
+        "Recommends the Grid Static specifically given multiple SKUs",
+        "Explains the unicorn-scaler vs. supporting-cast lens (B-tier = mid-funnel, don't kill for failing to scale cold)",
+        "Flags decayed formats to avoid (Press Mention F, Testimonial statics E, Listicle/Numbered List E)",
+        "Preserves grounding rules — no fabricated social proof"
+      ],
+      "files": []
+    },
+    {
+      "id": 14,
       "prompt": "We're a DTC supplement brand and our Meta reach has been flat for weeks. We can make basically any ad. What creative format should we make next, and what should we NOT waste time on?",
       "expected_output": "Should load references/meta-creative-formats.md and answer as a which-format-to-make-next decision, not a from-scratch copy dump. Should lead with the unicorn-scaler vs. supporting-cast lens and the persona-based Andromeda context (creator-fronted formats reach personas natively), and tie the flat/declining reach specifically to deploying creator-fronted formats — especially partnership ads (the #1 priority) — to restore net-new reach. Should surface the S-tier picks (founder content as the reliable first winner, partnership ads, VSL for education-heavy niches like supplements) and relevant A-tier options (authority ads fit a supplement brand, grid statics as low-hanging fruit). Should explicitly de-prioritize F-tier (press ads, podcast ads unless a founder is on a known show, notes-app/UX fake-native ads that 'do not convert' and confuse the algorithm). Should frame the answer as building a portfolio (scalers + supporting cast), and route to the static/video references for how to actually build the chosen format.",
       "assertions": [
