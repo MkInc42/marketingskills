@@ -5,7 +5,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
 | ab-testing | 2.0.0 | 2026-05-05 |
-| ad-creative | 2.8.0 | 2026-07-14 |
+| ad-creative | 2.8.1 | 2026-08-22 |
 | ai-seo | 2.4.0 | 2026-08-21 |
 | analytics | 2.0.1 | 2026-07-22 |
 | aso | 2.0.1 | 2026-08-19 |
@@ -55,6 +55,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.10.3 (2026-08-22)
+
+- **ad-creative** (2.8.0 → 2.8.1): new `references/short-form-video-specs.md` — the vertical-video production spec + a creator-format library, distilled from Daniel Hangan's `reelclaw-templates` (built on HeyGen's HyperFrames; patterns credited, no code vendored). **Part 1, the spec, applies to every 9:16 video the skill makes** (iMessage reveals, motion ads, and the creator formats): the cross-platform safe-zone band (TikTok∩IG Reels worst case — 220px top / 500px bottom / 180px sides → a 720×1200 centered text-safe area, the single most-missed constraint), the classic TikTok caption recipe (white fill + black `paint-order` stroke, no background pill), static-caption auto-sizing (~58px shrinking in 2px steps to a 26px floor, re-fit after `document.fonts.ready`), audio defaults with the **organic-vs-baked-music decision** (attach the trending sound in-app for organic reach; bake music only for ads / where native sound can't attach; fade the last ~0.8s), and the deterministic-render contract. **Part 2 is three creator/UGC formats** the skill didn't document — Reaction + Demo (hard cut), "No Yapping" silent split-screen tutorial, and Greenscreen Reaction — each as a reusable structure with when-to-use and mechanics. SKILL.md's Generating Ad Visuals section routes to it (load before producing any vertical video) and the description gains 'UGC ad' / 'reaction ad' / 'greenscreen ad' / 'no yapping split-screen video' / 'TikTok/Reels ad format' triggers (older redundant triggers trimmed to stay within the 1024-char limit). New eval (id 12) covers the format + safe-zone + organic-music decision in one prompt. Cross-links to the `video` skill for framework/render choices.
 
 ### 2.10.2 (2026-08-21)
 
