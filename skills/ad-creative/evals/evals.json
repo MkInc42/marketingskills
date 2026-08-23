@@ -171,6 +171,18 @@
         "Gives the organic-vs-baked-music decision rather than a blanket yes/no (attach trending sound in-app for organic; bake for ads)"
       ],
       "files": []
+    },
+    {
+      "id": 13,
+      "prompt": "We're a health supplement brand and want video ads that will actually scale to cold audiences, not just retarget. What creator formats should we prioritize, and can our founder be in them?",
+      "expected_output": "Should load references/short-form-video-specs.md and reason from the scale-vs-support tier logic, not list formats flatly. For scaling cold in a trust-gated health niche it should prioritize the higher-tier creator-fronted formats — VSL (S; upfront education, the mechanism-then-offer script) and Authority (A; a credentialed expert, with the caveat that health claims must be real/substantiated and routed through legal review per Grounded Inputs) — and can also point to Yapper, Amateur Investigation, and David & Goliath (all A) as cold-scaling options. Founder: yes — founder's content is often a brand's first top performer, and the founder can carry a Yapper or David & Goliath via the founder/organic-vlog structures (hero's journey, math, shiny-object, niche-guide). Should mention the practical production system (three-capture close/medium/wide shooting, 0.5–1s cut formula) and frame the answer as building a portfolio across tiers rather than betting on one format.",
+      "assertions": [
+        "Reasons from the scale-vs-support tier logic (prioritizes higher-tier cold-scaling formats over a flat list)",
+        "Recommends VSL and/or Authority for the education-heavy, trust-gated health niche, and flags the health-claims/legal-review compliance caveat for the Authority/expert format",
+        "Confirms the founder can front the ads (founder content as a common first top performer) via a founder/organic-vlog structure such as hero's journey or David & Goliath",
+        "References the founder shooting/edit system (three-capture close/medium/wide and/or the 0.5–1s cut formula) and/or framing the mix as a portfolio across tiers"
+      ],
+      "files": []
     }
   ]
 }
