@@ -97,6 +97,19 @@
         "Declines to give a single health score at ~50 percent coverage; separates unverified (unknown) from failing",
         "Frames any account change as a draft with a rollback step rather than an immediate action"
       ]
+    },
+    {
+      "id": 8,
+      "prompt": "Audit our Google Ads account. We're a DTC ecommerce brand running Shopping, Performance Max, and some Demand Gen. Walk me through what to check. I can give you Merchant Center access but I don't have the search terms report handy right now.",
+      "expected_output": "Should recognize this as an itemized ecommerce Google Ads audit and load references/google-ads-audit-checklist.md, working through the 32 checks across tracking, targeting, campaign structure, GMC (shipping, promotions, feed titles, images, store quality, ratings, eligible-product impressions), Shopping segmentation + budget allocation, bidding/budget, search, PMax signals + budget-on-Shopping, landing-page funnels, and Demand Gen. Should apply the four-state scoring from audit-guardrails.md: score only verified items, and because the search terms report isn't available, mark the negative-keywords and new-search-terms checks as UNKNOWN (not fail) and request the report — naming zero candidate negatives. Should treat Merchant Center access as available and plan the GMC feed-quality checks accordingly. Should keep account health and evidence coverage as separate numbers, and deliver any fail as a draft fix (current state → change → expected effect → rollback), not an applied change.",
+      "assertions": [
+        "Loads/uses the itemized google-ads-audit-checklist reference for an ecommerce audit",
+        "Covers ecommerce-specific depth: GMC feed quality, Shopping segmentation, PMax signals/budget, Demand Gen format splits, landing-page funnels",
+        "Marks the search-terms-dependent checks as unknown (not fail) and requests the report without inventing negative keywords",
+        "Applies four-state pass/fail/unknown/NA scoring and keeps health separate from evidence coverage",
+        "Delivers fails as draft fixes with a rollback step rather than applied changes"
+      ],
+      "files": []
     }
   ]
 }
