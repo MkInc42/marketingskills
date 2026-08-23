@@ -20,7 +20,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | copy-editing | 2.0.0 | 2026-05-05 |
 | copywriting | 2.0.1 | 2026-06-16 |
 | cro | 2.0.0 | 2026-05-05 |
-| customer-research | 2.0.1 | 2026-07-10 |
+| customer-research | 2.0.2 | 2026-08-23 |
 | directory-submissions | 2.0.0 | 2026-05-05 |
 | emails | 2.0.0 | 2026-05-05 |
 | free-tools | 2.0.0 | 2026-05-05 |
