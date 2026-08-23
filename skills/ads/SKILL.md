@@ -2,7 +2,7 @@
 name: ads
 description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' 'should I run ads,' 'ABM,' 'account-based marketing,' 'B2B ads,' 'lead quality,' 'negative keywords,' 'Performance Max,' 'thought leader ads,' or 'when should I kill an ad.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro."
 metadata:
-  version: 2.3.1
+  version: 2.3.2
 ---
 
 # Paid Ads
@@ -46,6 +46,7 @@ This skill's depth lives in references — load by intent. For **any operational
 
 | User intent | Load | Covers |
 |---|---|---|
+| "Can I afford this channel?", payback math, budgeting per plan, whether LTV:CAC lies | [payback-period.md](references/payback-period.md) | Why LTV:CAC is useless (4 flaws), Payback = CAC/ARPU (3–12mo), Discounted Payback, $9-vs-$999 worked examples, OOH+social, narrative momentum |
 | B2B strategy, funnel stages, budget splits, kill rules, lead quality, breakeven math | [b2b-paid-playbook.md](references/b2b-paid-playbook.md) | Demand lifecycle, leading/lagging signals, kill rules, offline conversion loop, U/B/F lead scoring, scaling quadrant |
 | Meta operations: when to kill/graduate/scale an ad, fatigue, testing structure, partnership/creator ads, declining reach | [meta-decision-system.md](references/meta-decision-system.md) | TCPL-anchored decision tree, ad-count ceiling, 80/20 CBO structure, fatigue bands, lead forms, Advantage+ transition, partnership-ads playbook, rolling-reach signal |
 | LinkedIn operations: bidding, audience sizing, scaling, benchmarks, TLAs, formats | [linkedin-b2b-playbook.md](references/linkedin-b2b-playbook.md) | Bidding progression, penetration scaling, sizing rules, funnel benchmarks, document/conversation ads, audit shortlist |
@@ -307,8 +308,7 @@ For hard kill/keep/scale thresholds, use the platform playbooks (see Reference R
 | Cold (any visit) | 30-90 days | 1-2x/week |
 
 ### Exclusions to Set Up
-- Existing customers (unless upsell)
-- Recent converters (7-14 day window)
+- Existing customers (unless upsell) and recent converters (7-14 day window)
 - Bounced visitors (<10 sec)
 - Irrelevant pages (careers, support)
 
@@ -494,6 +494,6 @@ For tracking setup, see [references/conversion-tracking.md](references/conversio
 - **revops**: For the CRM side of ABM — lead scoring, routing, and the offline conversion loop
 - **customer-research / competitor-profiling / positioning**: Voice-of-customer that feeds ad copy and angles; and turning an organic-teardown shortlist + the personas doc from [creative-research-automation.md](references/creative-research-automation.md) into full competitor dossiers and positioning
 - **copywriting**: For landing page copy that converts ad traffic
-- **analytics**: For proper conversion tracking setup
+- **analytics / attribution**: Conversion tracking setup and the blended-CAC inputs behind [payback-period.md](references/payback-period.md); **pricing** sets the ARPU + plan structure that drive its Payback math (why blended LTV:CAC hides $9-vs-$999 variance)
 - **ab-testing**: For landing page testing to improve ROAS
 - **cro**: For optimizing post-click conversion rates
