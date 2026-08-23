@@ -16,7 +16,7 @@ Current versions of all skills. Agents can compare against local versions to che
 | community-marketing | 2.0.1 | 2026-08-23 |
 | competitor-profiling | 2.0.1 | 2026-08-19 |
 | competitors | 2.0.1 | 2026-07-09 |
-| content-strategy | 2.2.0 | 2026-08-23 |
+| content-strategy | 2.1.1 | 2026-08-23 |
 | copy-editing | 2.0.0 | 2026-05-05 |
 | copywriting | 2.0.2 | 2026-08-23 |
 | cro | 2.0.0 | 2026-05-05 |
@@ -55,6 +55,26 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.10.5 (2026-08-23)
+
+Batch enrichment across 15 existing skills, distilled from Corey Haines's *Founding Marketing* book (full 19-chapter scan). Each is a patch bump; no new skills.
+
+- **ads** (2.3.1 → 2.3.2): `references/payback-period.md` — the Payback Period budgeting gate (Payback = CAC/ARPU, target 3–12mo; Discounted Payback = CAC/(ARPU×retention)) + the "LTV:CAC is destructive" argument. (ch7)
+- **customer-research** (2.0.1 → 2.0.2): `references/interviews-and-surveys.md` — primary-research layer: Sean Ellis/Superhuman PMF survey (40% benchmark), "keep asking why" 5-why laddering, interview outreach template + incentives, best-customer recruitment, confirmation-bias guardrail. (ch2)
+- **onboarding** (2.0.0 → 2.0.1): `references/minimum-path-to-value.md` + `references/activation-models.md` — MPTV (Hick's Law), the 5 activation models + Model-Market Fit, onboarding psychology set, 10-component toolkit. (ch16)
+- **pricing** (2.1.0 → 2.1.1): initial "learning price" philosophy ($10/$100/$1,000) + `references/pricing-models.md` (8 models incl. credit/outcome/hybrid) + price-change rollout methodology. (ch15–16)
+- **co-marketing** (2.0.0 → 2.0.1): `references/partnership-types.md` — the 5 partnership types + "permissionless co-marketing." (ch11)
+- **marketing-ideas** (2.0.0 → 2.0.1): `references/guerrilla-marketing.md` — direct-mail 3-rule framework + named case library (WePay ice block, Antimetal $15K pizza→$1M). (ch13)
+- **copywriting** (2.0.1 → 2.0.2): clarity & message-market-fit — the "Now you can" test, Human Action Model, Perception Gap, SavvyCal case, clarity metrics. (ch3)
+- **public-relations** (1.1.0 → 1.1.1): `references/story-angles.md` — the 3 story angles (Founding Story / David vs Goliath / Have an Enemy) + PR flywheel. (ch5)
+- **content-strategy** (2.1.0 → 2.1.1): `references/content-distribution.md` — "content as product," "Create Once Distribute Twice" distribution spine (ORB-as-funnel, distribution hooks), scoring + 60/30/10 calendar. (ch6, ch14)
+- **referrals** (2.0.0 → 2.0.1): `references/viral-mechanisms.md` — product-embedded virality: Viral Potential Spectrum + 7 mechanisms + affiliate power-law/buyout clauses. (ch10–11)
+- **free-tools** (2.0.0 → 2.0.1): `references/tool-benchmarks.md` — named case benchmarks (Unsplash→Getty, Website Grader 250K leads) + "your product is my marketing opportunity" + pitfalls. (ch8)
+- **community-marketing** (2.0.0 → 2.0.1): `references/community-models.md` — 5 community-model archetypes + Notion ambassador benchmarks + scaling-phase role shift. (ch12)
+- **offers** (1.0.0 → 1.0.1): `references/saas-offers.md` — the discount trap (~2× churn) + 4 SaaS-flavored worked offers. (ch15)
+- **marketing-plan** (1.1.0 → 1.1.1): "marketing as investing" north-star + problem size×frequency matrix; 70/20/10 allocation + plateau-alert cadence in growth-patterns. (ch1, ch17)
+- **launch** (2.0.1 → 2.0.2): SLC (Simple, Lovable, Complete) pre-launch readiness gate vs Stealth Mode / "Just One More Feature." (ch1)
 
 ### 2.10.4 (2026-08-23)
 
