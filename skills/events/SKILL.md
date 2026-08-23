@@ -32,6 +32,15 @@ Then establish, in one batch:
 
 Mixed roles are normal (sponsor + speak, attend + host a dinner). Plan each role's motion separately; they share the follow-up system.
 
+## Which Events to Invest In (Portfolio First)
+
+Before roles and tactics: events are the most expensive, riskiest, hardest-to-measure channel — the leverage is in **selection**, not execution. Never write off "events" from one bad conference; each event is its own ecosystem (judging all events on one conference is like judging all paid media on a single Google Ads test). Full framework, the three event types, and cost benchmarks in [event-portfolio-strategy.md](references/event-portfolio-strategy.md).
+
+- **Is in-person even necessary?** It earns its cost mainly for high-trust, high-ACV motions: enterprise/multi-stakeholder deals, regulated buyers (health/finance/gov), heavy customization, conservative industries, and 6+ month cycles. If your ICP isn't there, spend on digital first.
+- **The 80/20 of selection.** A handful of events generate most event pipeline. Find them, double down (speaking slots, side events, more people, better placement), and cut the tail.
+- **Bigger isn't better.** Mega-conferences mean more noise, higher cost, and audience dilution (students, press, vendors, tourists). Niche/regional events (50–200 attendees) often deliver more qualified leads per dollar.
+- **Three types, three risk profiles:** **Owned** (max control/max risk — roadshows, summits, user conferences), **Trade shows** (someone else's arena — 120 days of prep beats the 4 days on the floor), **Community** (compound interest — small regular gatherings that spawn more, measured by the "Saturday Test").
+
 ## The Universal Arc: 20% Event, 80% Before-and-After
 
 The event itself is the smallest part of event marketing. Every format follows the same arc, and most failures are arc failures, not event failures:
@@ -106,6 +115,8 @@ Events produce your highest-proof content — capture it deliberately:
 - **One-off thinking.** Budget for the third instance before running the first.
 - **Doing the event, skipping the recording.** Full production effort, zero durable assets.
 - **Counting badge scans as leads.** A scan is a person who walked slowly. Qualify before it enters the pipeline.
+- **Writing off "events" after one bad conference.** Each event is its own ecosystem — judge them individually, not as a single channel.
+- **Chasing the biggest conferences.** Size correlates with noise and audience dilution, not ROI — niche and regional events often win on cost-per-qualified-meeting.
 
 ## Related Skills
 

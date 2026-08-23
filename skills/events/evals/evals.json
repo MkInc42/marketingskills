@@ -75,6 +75,18 @@
         "Mentions capturing the recording for downstream content"
       ],
       "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "We're a B2B SaaS with $80k ACV enterprise deals. Should we even do events, and if so which ones? There's a huge 10,000-person industry conference coming up and everyone says we have to be there.",
+      "expected_output": "Should load references/event-portfolio-strategy.md and reason at the portfolio level before tactics. Should confirm in-person is warranted here (enterprise, high-ACV, multi-stakeholder trust-building is exactly where events earn their cost). Should apply the 80/20 of event selection (a few events drive most pipeline — find and concentrate on those). Should push back on the assumption that the 10,000-person conference is a must: bigger is often inverse to ROI because of noise and audience dilution (students, press, vendors, tourists), so effective cost-per-qualified-lead balloons; niche/regional events (50-200) or a curated side event (private dinner, coffee meetups) may out-produce a big booth at a fraction of the cost. Should frame the three event types (owned/trade-show/community) and tie the decision to economics — a significant show needs ~5-10 solid opportunities to justify a team — comparing cost-per-qualified-meeting against other channels (sponsorship-roi.md).",
+      "assertions": [
+        "Confirms in-person events fit this ICP (enterprise, high-ACV, multi-stakeholder / complex deals)",
+        "Applies the 80/20 event-selection principle — concentrate on the few highest-yield events rather than attending broadly",
+        "Challenges the 'must attend the 10,000-person conference' assumption: bigger correlates with noise and audience dilution, not ROI; suggests niche/regional or a curated side event",
+        "Grounds the decision in economics (needs ~5-10 solid opportunities to justify a team, or cost-per-qualified-meeting vs other channels)"
+      ],
+      "files": []
     }
   ]
 }
