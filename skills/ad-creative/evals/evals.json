@@ -185,6 +185,21 @@
         "Preserves grounding rules — no fabricated social proof"
       ],
       "files": []
+    },
+    {
+      "id": 14,
+      "prompt": "We're a DTC supplement brand and our Meta reach has been flat for weeks. We can make basically any ad. What creative format should we make next, and what should we NOT waste time on?",
+      "expected_output": "Should load references/meta-creative-formats.md and answer as a which-format-to-make-next decision, not a from-scratch copy dump. Should lead with the unicorn-scaler vs. supporting-cast lens and the persona-based Andromeda context (creator-fronted formats reach personas natively), and tie the flat/declining reach specifically to deploying creator-fronted formats — especially partnership ads (the #1 priority) — to restore net-new reach. Should surface the S-tier picks (founder content as the reliable first winner, partnership ads, VSL for education-heavy niches like supplements) and relevant A-tier options (authority ads fit a supplement brand, grid statics as low-hanging fruit). Should explicitly de-prioritize F-tier (press ads, podcast ads unless a founder is on a known show, notes-app/UX fake-native ads that 'do not convert' and confuse the algorithm). Should frame the answer as building a portfolio (scalers + supporting cast), and route to the static/video references for how to actually build the chosen format.",
+      "assertions": [
+        "Loads or applies the meta-creative-formats reference",
+        "Frames the answer with the unicorn-scaler vs. supporting-cast distinction",
+        "Explains the persona-based Andromeda reason creator-fronted formats rank highest",
+        "Ties flat/declining reach to deploying partnership ads (the #1 priority) to restore net-new reach",
+        "Recommends S-tier picks (founder content, partnership ads, VSL) and a fitting A-tier option (authority ads and/or grid statics)",
+        "Explicitly de-prioritizes F-tier (press, podcast-unless-known-show, notes-app/UX fake-native)",
+        "Frames it as building a portfolio and routes to static/video references for production"
+      ],
+      "files": []
     }
   ]
 }
