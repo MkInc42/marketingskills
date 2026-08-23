@@ -5,45 +5,45 @@ Current versions of all skills. Agents can compare against local versions to che
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
 | ab-testing | 2.0.0 | 2026-05-05 |
-| ad-creative | 2.8.1 | 2026-08-22 |
+| ad-creative | 2.8.2 | 2026-08-23 |
 | ai-seo | 2.4.0 | 2026-08-21 |
 | analytics | 2.0.1 | 2026-07-22 |
 | aso | 2.0.1 | 2026-08-19 |
 | attribution | 1.1.0 | 2026-07-23 |
 | churn-prevention | 2.0.0 | 2026-05-05 |
-| co-marketing | 2.0.0 | 2026-05-05 |
+| co-marketing | 2.0.1 | 2026-08-23 |
 | cold-email | 2.0.0 | 2026-05-05 |
-| community-marketing | 2.0.0 | 2026-05-05 |
+| community-marketing | 2.0.1 | 2026-08-23 |
 | competitor-profiling | 2.0.1 | 2026-08-19 |
 | competitors | 2.0.1 | 2026-07-09 |
-| content-strategy | 2.1.0 | 2026-08-19 |
+| content-strategy | 2.1.1 | 2026-08-23 |
 | copy-editing | 2.0.0 | 2026-05-05 |
-| copywriting | 2.0.1 | 2026-06-16 |
+| copywriting | 2.0.2 | 2026-08-23 |
 | cro | 2.0.0 | 2026-05-05 |
-| customer-research | 2.0.1 | 2026-07-10 |
+| customer-research | 2.0.2 | 2026-08-23 |
 | directory-submissions | 2.0.0 | 2026-05-05 |
 | emails | 2.0.0 | 2026-05-05 |
-| free-tools | 2.0.0 | 2026-05-05 |
+| free-tools | 2.0.1 | 2026-08-23 |
 | image | 2.0.1 | 2026-05-18 |
 | influencer-marketing | 1.1.0 | 2026-08-19 |
-| launch | 2.0.1 | 2026-06-16 |
+| launch | 2.0.2 | 2026-08-23 |
 | lead-magnets | 2.0.0 | 2026-05-05 |
 | marketing-council | 1.0.0 | 2026-07-06 |
-| marketing-ideas | 2.0.0 | 2026-05-05 |
+| marketing-ideas | 2.0.1 | 2026-08-23 |
 | marketing-loops | 1.2.0 | 2026-07-10 |
-| marketing-plan | 1.1.0 | 2026-05-29 |
+| marketing-plan | 1.1.1 | 2026-08-23 |
 | marketing-psychology | 2.0.0 | 2026-05-05 |
-| offers | 1.0.0 | 2026-06-16 |
-| onboarding | 2.0.0 | 2026-05-05 |
-| ads | 2.3.0 | 2026-08-19 |
+| offers | 1.0.1 | 2026-08-23 |
+| onboarding | 2.0.1 | 2026-08-23 |
+| ads | 2.3.2 | 2026-08-23 |
 | paywalls | 2.0.0 | 2026-05-05 |
 | popups | 2.0.0 | 2026-05-05 |
-| pricing | 2.1.0 | 2026-07-27 |
+| pricing | 2.1.1 | 2026-08-23 |
 | product-marketing | 2.1.0 | 2026-07-16 |
 | programmatic-seo | 2.0.0 | 2026-05-05 |
 | prospecting | 1.1.0 | 2026-07-13 |
-| public-relations | 1.1.0 | 2026-08-19 |
-| referrals | 2.0.0 | 2026-05-05 |
+| public-relations | 1.1.1 | 2026-08-23 |
+| referrals | 2.0.1 | 2026-08-23 |
 | revops | 2.0.0 | 2026-05-05 |
 | sales-enablement | 2.0.1 | 2026-06-16 |
 | schema | 2.0.0 | 2026-05-05 |
@@ -55,6 +55,31 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.10.5 (2026-08-23)
+
+Batch enrichment across 15 existing skills, distilled from Corey Haines's *Founding Marketing* book (full 19-chapter scan). Each is a patch bump; no new skills.
+
+- **ads** (2.3.1 → 2.3.2): `references/payback-period.md` — the Payback Period budgeting gate (Payback = CAC/ARPU, target 3–12mo; Discounted Payback = CAC/(ARPU×retention)) + the "LTV:CAC is destructive" argument. (ch7)
+- **customer-research** (2.0.1 → 2.0.2): `references/interviews-and-surveys.md` — primary-research layer: Sean Ellis/Superhuman PMF survey (40% benchmark), "keep asking why" 5-why laddering, interview outreach template + incentives, best-customer recruitment, confirmation-bias guardrail. (ch2)
+- **onboarding** (2.0.0 → 2.0.1): `references/minimum-path-to-value.md` + `references/activation-models.md` — MPTV (Hick's Law), the 5 activation models + Model-Market Fit, onboarding psychology set, 10-component toolkit. (ch16)
+- **pricing** (2.1.0 → 2.1.1): initial "learning price" philosophy ($10/$100/$1,000) + `references/pricing-models.md` (8 models incl. credit/outcome/hybrid) + price-change rollout methodology. (ch15–16)
+- **co-marketing** (2.0.0 → 2.0.1): `references/partnership-types.md` — the 5 partnership types + "permissionless co-marketing." (ch11)
+- **marketing-ideas** (2.0.0 → 2.0.1): `references/guerrilla-marketing.md` — direct-mail 3-rule framework + named case library (WePay ice block, Antimetal $15K pizza→$1M). (ch13)
+- **copywriting** (2.0.1 → 2.0.2): clarity & message-market-fit — the "Now you can" test, Human Action Model, Perception Gap, SavvyCal case, clarity metrics. (ch3)
+- **public-relations** (1.1.0 → 1.1.1): `references/story-angles.md` — the 3 story angles (Founding Story / David vs Goliath / Have an Enemy) + PR flywheel. (ch5)
+- **content-strategy** (2.1.0 → 2.1.1): `references/content-distribution.md` — "content as product," "Create Once Distribute Twice" distribution spine (ORB-as-funnel, distribution hooks), scoring + 60/30/10 calendar. (ch6, ch14)
+- **referrals** (2.0.0 → 2.0.1): `references/viral-mechanisms.md` — product-embedded virality: Viral Potential Spectrum + 7 mechanisms + affiliate power-law/buyout clauses. (ch10–11)
+- **free-tools** (2.0.0 → 2.0.1): `references/tool-benchmarks.md` — named case benchmarks (Unsplash→Getty, Website Grader 250K leads) + "your product is my marketing opportunity" + pitfalls. (ch8)
+- **community-marketing** (2.0.0 → 2.0.1): `references/community-models.md` — 5 community-model archetypes + Notion ambassador benchmarks + scaling-phase role shift. (ch12)
+- **offers** (1.0.0 → 1.0.1): `references/saas-offers.md` — the discount trap (~2× churn) + 4 SaaS-flavored worked offers. (ch15)
+- **marketing-plan** (1.1.0 → 1.1.1): "marketing as investing" north-star + problem size×frequency matrix; 70/20/10 allocation + plateau-alert cadence in growth-patterns. (ch1, ch17)
+- **launch** (2.0.1 → 2.0.2): SLC (Simple, Lovable, Complete) pre-launch readiness gate vs Stealth Mode / "Just One More Feature." (ch1)
+
+### 2.10.4 (2026-08-23)
+
+- **ad-creative** (2.8.1 → 2.8.2): three creative-format references distilled from Dara Denney's practitioner content. New `references/meta-creative-formats.md` — a prioritized S→F taxonomy of ~51 Meta ad formats as a "which format to make next" decision aid, framed by the unicorn-scaler-vs-supporting-cast lens and the persona-based Andromeda algorithm (S-tier: founder content, partnership ads, VSL; explicit F-tier de-prioritization of press / podcast / notes-app fake-native). `references/static-ad-templates.md` gains a **tier (S–F) + funnel role** on all 15 templates plus 7 new statics (grid multi-SKU, callout, mood board, educational infographic, challenging-beliefs, tweet/reddit, ugly/post-it). `references/short-form-video-specs.md`'s Creator Format Library expands from 3 to 13 formats (yapper, amateur investigation, David & Goliath, authority, VSL, green-screen commentary, conversation, duet/reaction, ASMR, street interview) plus a founder/organic vlog-structures subsection (hero's journey, math, shiny-object, three-capture shooting, 0.5–1s cut) from Oren John. New evals (ids 13–15); description gains taxonomy triggers.
+- **ads** (2.3.0 → 2.3.1): two new references plus a partnership-ads layer. New `references/google-ads-audit-checklist.md` — a 32-item ecommerce Google Ads audit (Search + Shopping + PMax + GMC + Demand Gen) scored pass/fail/unknown/NA under the audit guardrails (adapted from ECHELONN's public checklist). New `references/creative-research-automation.md` — an agentic creative/competitive research workflow (ad-library teardown with output schema, review→persona mapping, competitor teardown; connectors + scheduled-to-Slack). `references/meta-decision-system.md` gains the **partnership-ads playbook** — the net-new-reach lever under Andromeda's persona targeting, rolling month-over-month reach as a scale/health signal, and the per-creator low-fi-statics companion tactic — closing the skill's prior zero coverage of partnership ads. New evals (ids 8–10).
 
 ### 2.10.3 (2026-08-22)
 
